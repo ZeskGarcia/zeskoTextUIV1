@@ -2,7 +2,8 @@ const NOTIFICATION_LIST = {
     ['default']: 'default',
     ['gta']: 'gta',
     ['foras']: 'foras',
-    ['custom']: 'custom'
+    ['custom']: 'custom',
+    ['modernq'] = 'modernq'
 }
 
 window.addEventListener('message', (event) => {
