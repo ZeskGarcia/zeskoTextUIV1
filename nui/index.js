@@ -1,6 +1,7 @@
 const NOTIFICATION_LIST = {
     ['default']: 'default',
     ['gta']: 'gta',
+    ['foras']: 'foras',
     ['custom']: 'custom'
 }
 
