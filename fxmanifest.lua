@@ -1,8 +1,8 @@
 game {'gta5'}
 fx_version 'adamant'
 
-author 'Zesk#6961'
-description 'Custom TextUI with different styles/themes/appearences for the community of FiveM forums.'
+author 'Zesk#6961 & Jaareet#0542'
+description 'Custom TextUI with different styles/themes/appearences for the community of FiveM forums. Thanks to Jaareet#0542 to fix some errors of the script.'
 website 'https://docs.zeskoogarcia.com'
 
 client_scripts {
