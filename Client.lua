@@ -2,7 +2,8 @@ local NOTIFICATION_TYPES = {
     ['default'] = 'default',
     ['gta'] = 'gta',
     ['foras'] = 'foras',
-    ['custom'] = 'custom'
+    ['custom'] = 'custom',
+    ['modernq'] = 'modernq'
 }
 
 function showNewTextUI(text, timeouts, type)
