@@ -1,5 +1,7 @@
 @import url('https://fonts.cdnfonts.com/css/pricedown');
+@import url('https://fonts.cdnfonts.com/css/nova');
 @font-face {font-family: boxEd;src: url('./fonts/boxedRound.ttf');}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -40,6 +42,47 @@
     border-radius: 0.5vw;
     font-family: boxEd;
     color: white;
+}
+
+.textUI.foras {
+    left: 12.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    bottom: 0;
+    font-family: boxEd;
+    width: calc(100% - 77.5%);
+    height: calc(100vh - 90%);
+    border: solid 2px black;
+    background-color: rgba(0, 0, 0, .375);
+    border-radius: .25vw;
+    color: white;
+}
+
+.textUI.modernq {
+    left: 22.5%;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-family: 'NOVA', sans-serif;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    background-color: rgba(0, 0, 0, .5);
+    width: calc(100% - 65%);
+    height: calc(100vh - 90%);
+    font-size: 1.25em;
+    color: white;
+    border: solid 2px black;
+}
+
+.textUI.textUI.modernq span.input {
+    padding: 7.5px 12.5px;
+}
+
+.textUI.foras span.input {
+    padding: 7.5px 12.5px;
 }
 
 .textUI.default span.input {
