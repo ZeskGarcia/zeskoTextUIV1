@@ -1,6 +1,7 @@
 local NOTIFICATION_TYPES = {
     ['default'] = 'default',
     ['gta'] = 'gta',
+    ['foras'] = 'foras',
     ['custom'] = 'custom'
 }
 
