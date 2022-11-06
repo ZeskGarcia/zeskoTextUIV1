@@ -11,9 +11,20 @@ Previews;
 
 ## **HOW TO USE**
 Client Side:<br>
-```
+```lua
 exports['zeskoTextUIV1']:showNewTextUI(text, timeouts, type)
 ```
 <br>
 Server Side:<br>
-Soon will be added
+Via Export:<br>
+
+```lua
+exports['zeskoTextUIV1']:showNewTextUI(text, timeouts, type)
+
+```
+<br>
+Via TriggerClientEvent:
+
+```lua
+TriggerClientEvent('zeskoTextUi:client:show', source, text, timeouts, type)
+```
