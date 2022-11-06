@@ -20,4 +20,7 @@ RegisterCommand('text', function()
     showNewTextUI('This is a text', 7000, 'default')
 end)
 
+RegisterNetEvent('zeskoTextUi:client:show', function(t, ti, th)
+    showNewTextUI(t, ti, th)   
+end)
 exports('showNewTextUI', showNewTextUI)
